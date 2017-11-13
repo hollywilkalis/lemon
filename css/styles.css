@@ -1,0 +1,82 @@
+.container-fluid {
+  border-color: teal;
+  border-style: solid;
+  border-width: 5px;
+  padding: 100px 70px 150px 70px;
+
+  /*min-height: 10em;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.boxes {
+  /*margin: 10px;*/
+  padding: 20px;
+  box-sizing: border-box;
+  /*width: 100%;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gray-box {
+  background-color: gray;
+  box-sizing: border-box;
+  float: left;
+  padding: 30px;
+  width: 35%;
+
+}
+
+img {
+  margin: 10px;
+}
+
+.lemon {
+  background-color: lightblue;
+  border: blue solid 3px;
+  text-align: center;
+  color: purple;
+  padding: 25px;
+
+}
+
+.lemon-note {
+  background-color: lightgray;
+  border: 2px solid darkgray;
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.abc {
+  border: purple 2px solid;
+  box-sizing: border-box;
+  float: right;
+  width: 55%;
+  text-align: center;
+}
+
+.abc-line {
+  border-bottom: purple 2px solid;
+}
+
+.abc-text {
+  margin: 50px;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 10%;
+}
+
+h2 {
+  color: purple;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+h2 .h2-numbers {
+  float: right;
+  margin-right: 30px;
+}
